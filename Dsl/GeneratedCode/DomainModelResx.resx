@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JA.Attack.AttackDomainModel.Description" xml:space="preserve">
+    <value>Description for JA.Attack.Attack</value>
+    <comment>Description for DslLibrary &apos;Attack&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackDomainModel.DisplayName" xml:space="preserve">
+    <value>Task Flow</value>
+    <comment>DisplayName for DslLibrary &apos;Attack&apos;</comment>
+  </data>
+  <data name="JA.Attack.NamedElement.Description" xml:space="preserve">
+    <value>Overall base class that provides every element with a Name property which acts as its MonikerKey for serialization.</value>
+    <comment>Description for DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.NamedElement.DisplayName" xml:space="preserve">
+    <value>Named Element</value>
+    <comment>DisplayName for DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.NamedElement/Name.Description" xml:space="preserve">
+    <value>Description for JA.Attack.NamedElement.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.NamedElement/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;NamedElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraph.Description" xml:space="preserve">
+    <value>Root element in which others are embedded.</value>
+    <comment>Description for DomainClass &apos;AttackGraph&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraph.DisplayName" xml:space="preserve">
+    <value>Attack Graph</value>
+    <comment>DisplayName for DomainClass &apos;AttackGraph&apos;</comment>
+  </data>
+  <data name="JA.Attack.FlowElement.Description" xml:space="preserve">
+    <value>Elements that can be connected by Flow links.</value>
+    <comment>Description for DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.FlowElement.DisplayName" xml:space="preserve">
+    <value>Flow Element</value>
+    <comment>DisplayName for DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.FlowElement/Description.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainProperty &apos;Description&apos; on DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.FlowElement/Description.DisplayName" xml:space="preserve">
+    <value>Description</value>
+    <comment>DisplayName for DomainProperty &apos;Description&apos; on DomainClass &apos;FlowElement&apos;</comment>
+  </data>
+  <data name="JA.Attack.Task.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;Task&apos;</comment>
+  </data>
+  <data name="JA.Attack.Task.DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>DisplayName for DomainClass &apos;Task&apos;</comment>
+  </data>
+  <data name="JA.Attack.StartPoint.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;StartPoint&apos;</comment>
+  </data>
+  <data name="JA.Attack.StartPoint.DisplayName" xml:space="preserve">
+    <value>Start Point</value>
+    <comment>DisplayName for DomainClass &apos;StartPoint&apos;</comment>
+  </data>
+  <data name="JA.Attack.Endpoint.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;Endpoint&apos;</comment>
+  </data>
+  <data name="JA.Attack.Endpoint.DisplayName" xml:space="preserve">
+    <value>Endpoint</value>
+    <comment>DisplayName for DomainClass &apos;Endpoint&apos;</comment>
+  </data>
+  <data name="JA.Attack.MergeBranch.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;MergeBranch&apos;</comment>
+  </data>
+  <data name="JA.Attack.MergeBranch.DisplayName" xml:space="preserve">
+    <value>Merge Branch</value>
+    <comment>DisplayName for DomainClass &apos;MergeBranch&apos;</comment>
+  </data>
+  <data name="JA.Attack.Synchronization.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;Synchronization&apos;</comment>
+  </data>
+  <data name="JA.Attack.Synchronization.DisplayName" xml:space="preserve">
+    <value>Synchronization</value>
+    <comment>DisplayName for DomainClass &apos;Synchronization&apos;</comment>
+  </data>
+  <data name="JA.Attack.State.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainClass &apos;State&apos;</comment>
+  </data>
+  <data name="JA.Attack.State.DisplayName" xml:space="preserve">
+    <value>State</value>
+    <comment>DisplayName for DomainClass &apos;State&apos;</comment>
+  </data>
+  <data name="JA.Attack.Condition.Description" xml:space="preserve">
+    <value>Description for JA.Attack.Condition</value>
+    <comment>Description for DomainClass &apos;Condition&apos;</comment>
+  </data>
+  <data name="JA.Attack.Condition.DisplayName" xml:space="preserve">
+    <value>Condition</value>
+    <comment>DisplayName for DomainClass &apos;Condition&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow.Description" xml:space="preserve">
+    <value>Description for JA.Attack.Flow</value>
+    <comment>Description for DomainClass &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow.DisplayName" xml:space="preserve">
+    <value>Flow</value>
+    <comment>DisplayName for DomainClass &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowFrom.Description" xml:space="preserve">
+    <value>Description for JA.Attack.Flow.FlowFrom</value>
+    <comment>Description for DomainRole &apos;FlowFrom&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowFrom.DisplayName" xml:space="preserve">
+    <value>Flow From</value>
+    <comment>DisplayName for DomainRole &apos;FlowFrom&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowFrom.PropertyDisplayName" xml:space="preserve">
+    <value>Flow To</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FlowFrom&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowTo.Description" xml:space="preserve">
+    <value>Description for JA.Attack.Flow.FlowTo</value>
+    <comment>Description for DomainRole &apos;FlowTo&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowTo.DisplayName" xml:space="preserve">
+    <value>Flow To</value>
+    <comment>DisplayName for DomainRole &apos;FlowTo&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.Flow/FlowTo.PropertyDisplayName" xml:space="preserve">
+    <value>Flow From</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FlowTo&apos; on DomainRelationship &apos;Flow&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements.Description" xml:space="preserve">
+    <value>Description for JA.Attack.AttackGraphHasFlowElements</value>
+    <comment>Description for DomainClass &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements.DisplayName" xml:space="preserve">
+    <value>Attack Graph Has Flow Elements</value>
+    <comment>DisplayName for DomainClass &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/AttackGraph.Description" xml:space="preserve">
+    <value>Description for JA.Attack.AttackGraphHasFlowElements.AttackGraph</value>
+    <comment>Description for DomainRole &apos;AttackGraph&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/AttackGraph.DisplayName" xml:space="preserve">
+    <value>Attack Graph</value>
+    <comment>DisplayName for DomainRole &apos;AttackGraph&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/AttackGraph.PropertyDisplayName" xml:space="preserve">
+    <value>Flow Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;AttackGraph&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/FlowElement.Description" xml:space="preserve">
+    <value>Description for JA.Attack.AttackGraphHasFlowElements.FlowElement</value>
+    <comment>Description for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/FlowElement.DisplayName" xml:space="preserve">
+    <value>Flow Element</value>
+    <comment>DisplayName for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackGraphHasFlowElements/FlowElement.PropertyDisplayName" xml:space="preserve">
+    <value>Attack Graph</value>
+    <comment>PropertyDisplayName for DomainRole &apos;FlowElement&apos; on DomainRelationship &apos;AttackGraphHasFlowElements&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskHasPreConditions</value>
+    <comment>Description for DomainClass &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions.DisplayName" xml:space="preserve">
+    <value>Task Has Pre Conditions</value>
+    <comment>DisplayName for DomainClass &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Task.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskHasPreConditions.Task</value>
+    <comment>Description for DomainRole &apos;Task&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Task.DisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>DisplayName for DomainRole &apos;Task&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Task.PropertyDisplayName" xml:space="preserve">
+    <value>Conditioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Task&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Condition.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskHasPreConditions.Condition</value>
+    <comment>Description for DomainRole &apos;Condition&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Condition.DisplayName" xml:space="preserve">
+    <value>Condition</value>
+    <comment>DisplayName for DomainRole &apos;Condition&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskHasPreConditions/Condition.PropertyDisplayName" xml:space="preserve">
+    <value>Task</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Condition&apos; on DomainRelationship &apos;TaskHasPreConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions.Description" xml:space="preserve">
+    <value>Description for JA.Attack.StateHasPostConditions</value>
+    <comment>Description for DomainClass &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions.DisplayName" xml:space="preserve">
+    <value>State Has Post Conditions</value>
+    <comment>DisplayName for DomainClass &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/State.Description" xml:space="preserve">
+    <value>Description for JA.Attack.StateHasPostConditions.State</value>
+    <comment>Description for DomainRole &apos;State&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/State.DisplayName" xml:space="preserve">
+    <value>State</value>
+    <comment>DisplayName for DomainRole &apos;State&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/State.PropertyDisplayName" xml:space="preserve">
+    <value>Conditioned</value>
+    <comment>PropertyDisplayName for DomainRole &apos;State&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/Condition.Description" xml:space="preserve">
+    <value>Description for JA.Attack.StateHasPostConditions.Condition</value>
+    <comment>Description for DomainRole &apos;Condition&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/Condition.DisplayName" xml:space="preserve">
+    <value>Condition</value>
+    <comment>DisplayName for DomainRole &apos;Condition&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateHasPostConditions/Condition.PropertyDisplayName" xml:space="preserve">
+    <value>State</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Condition&apos; on DomainRelationship &apos;StateHasPostConditions&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskSort/Regular.DisplayName" xml:space="preserve">
+    <value>Regular</value>
+    <comment>Display name for EnumerationLiteral &apos;Regular&apos; on DomainEnumeration &apos;TaskSort&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskSort/Regular.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskSort.Regular</value>
+    <comment>Description for EnumerationLiteral &apos;Regular&apos; on DomainEnumeration &apos;TaskSort&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskSort/SuperTask.DisplayName" xml:space="preserve">
+    <value>SuperTask</value>
+    <comment>Display name for EnumerationLiteral &apos;SuperTask&apos; on DomainEnumeration &apos;TaskSort&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskSort/SuperTask.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskSort.SuperTask</value>
+    <comment>Description for EnumerationLiteral &apos;SuperTask&apos; on DomainEnumeration &apos;TaskSort&apos;</comment>
+  </data>
+  <data name="JA.Attack.MergeBranchShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.MergeBranchShape</value>
+    <comment>Description for DomainClass &apos;MergeBranchShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.MergeBranchShape.DisplayName" xml:space="preserve">
+    <value>Merge Branch Shape</value>
+    <comment>DisplayName for DomainClass &apos;MergeBranchShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.EndShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.EndShape</value>
+    <comment>Description for DomainClass &apos;EndShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.EndShape.DisplayName" xml:space="preserve">
+    <value>End Shape</value>
+    <comment>DisplayName for DomainClass &apos;EndShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.StartShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.StartShape</value>
+    <comment>Description for DomainClass &apos;StartShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.StartShape.DisplayName" xml:space="preserve">
+    <value>Start Shape</value>
+    <comment>DisplayName for DomainClass &apos;StartShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.SyncBarShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.SyncBarShape</value>
+    <comment>Description for DomainClass &apos;SyncBarShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.SyncBarShape.DisplayName" xml:space="preserve">
+    <value>Sync Bar Shape</value>
+    <comment>DisplayName for DomainClass &apos;SyncBarShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.StateShape</value>
+    <comment>Description for DomainClass &apos;StateShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.StateShape.DisplayName" xml:space="preserve">
+    <value>State Shape</value>
+    <comment>DisplayName for DomainClass &apos;StateShape&apos;</comment>
+  </data>
+  <data name="StateShapePostConditionsTitle" xml:space="preserve">
+    <value>Post Conditions</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="StateShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="JA.Attack.TaskShape.Description" xml:space="preserve">
+    <value>Description for JA.Attack.TaskShape</value>
+    <comment>Description for DomainClass &apos;TaskShape&apos;</comment>
+  </data>
+  <data name="JA.Attack.TaskShape.DisplayName" xml:space="preserve">
+    <value>Task Shape</value>
+    <comment>DisplayName for DomainClass &apos;TaskShape&apos;</comment>
+  </data>
+  <data name="TaskShapePreConditionsTitle" xml:space="preserve">
+    <value>Pre Conditions</value>
+    <comment>Compartment title</comment>
+  </data>
+  <data name="TaskShapeNameDefaultText" xml:space="preserve">
+    <value>Name</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="JA.Attack.FlowConnector.Description" xml:space="preserve">
+    <value>Description for JA.Attack.FlowConnector</value>
+    <comment>Description for DomainClass &apos;FlowConnector&apos;</comment>
+  </data>
+  <data name="JA.Attack.FlowConnector.DisplayName" xml:space="preserve">
+    <value>Flow Connector</value>
+    <comment>DisplayName for DomainClass &apos;FlowConnector&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>Task Flow (*.Attack)|*.Attack</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>Attack Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="JA.Attack.AttackDiagram.Description" xml:space="preserve">
+    <value>Description for JA.Attack.AttackDiagram</value>
+    <comment>Description for DomainClass &apos;AttackDiagram&apos;</comment>
+  </data>
+  <data name="JA.Attack.AttackDiagram.DisplayName" xml:space="preserve">
+    <value>Flow Diagram</value>
+    <comment>DisplayName for DomainClass &apos;AttackDiagram&apos;</comment>
+  </data>
+  <data name="AttackToolboxTab" xml:space="preserve">
+    <value>Attack</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="TaskToolboxItem" xml:space="preserve">
+    <value>Task</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TaskToolboxTooltip" xml:space="preserve">
+    <value>Create a Task</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="StartPointToolboxItem" xml:space="preserve">
+    <value>Start Point</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="StartPointToolboxTooltip" xml:space="preserve">
+    <value>Create a Start Point</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EndPointToolboxItem" xml:space="preserve">
+    <value>End Point</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EndPointToolboxTooltip" xml:space="preserve">
+    <value>End Point</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="MergeBranchToolboxItem" xml:space="preserve">
+    <value>Merge/Branch</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="MergeBranchToolboxTooltip" xml:space="preserve">
+    <value>Create a Merge/Branch</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SynchronizationToolboxItem" xml:space="preserve">
+    <value>Synchronization</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SynchronizationToolboxTooltip" xml:space="preserve">
+    <value>Create a Synchronization bar</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="FlowToolboxItem" xml:space="preserve">
+    <value>Flow</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="FlowToolboxTooltip" xml:space="preserve">
+    <value>Drag between Tasks to create a Flow</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="StateToolboxItem" xml:space="preserve">
+    <value>State</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="StateToolboxTooltip" xml:space="preserve">
+    <value>Create a State</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MergeBranchShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\decision.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>MergeBranchShape shape image</comment>
+  </data>
+  <data name="EndShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Stop.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>EndShape shape image</comment>
+  </data>
+  <data name="StartShapeImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Start.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>StartShape shape image</comment>
+  </data>
+  <data name="ConditionExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Postcondition.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TaskExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\TaskTool.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StateExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\StateTool.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EndpointExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EndTool.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="MergeBranchExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\MergeBranchTool.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StartPointExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\Start.emf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SynchronizationExplorerImage" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\SyncBarTool.bmp;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+ 
+  <data name="StartPointToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\StartTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EndPointToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\EndTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="MergeBranchToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\MergeBranchTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SynchronizationToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\SyncBarTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="FlowToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\FlowTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StateToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\Resources\TaskTool.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

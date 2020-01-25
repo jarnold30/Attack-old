@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{a54ded27-7361-472b-9324-92b1e22c1341}</TemplateID>
+		<Name Package="{f5289f65-761a-4fc5-81b6-efd87c9d9530}" ID="103"/>
+		<Description Package="{f5289f65-761a-4fc5-81b6-efd87c9d9530}" ID="102"/>
+		<Icon Package="{f5289f65-761a-4fc5-81b6-efd87c9d9530}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>Attack.Attack</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.Attack">Attack.Attack</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.Attack.diagram">Attack.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
