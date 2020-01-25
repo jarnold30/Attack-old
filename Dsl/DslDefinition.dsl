@@ -454,7 +454,7 @@
       <XmlSerializationBehaviorMoniker Name="AttackSerializationBehavior" />
     </XmlSerializationDefinition>
     <ToolboxTab TabText="Attack">
-      <ElementTool Name="Task" ToolboxIcon="Resources\ObjectTool.bmp" Caption="Task" Tooltip="Create a Task" HelpKeyword="CreateTaskF1Keyword">
+      <ElementTool Name="Task" ToolboxIcon="Resources\TaskTool.bmp" Caption="Task" Tooltip="Create a Task" HelpKeyword="CreateTaskF1Keyword">
         <DomainClassMoniker Name="Task" />
       </ElementTool>
       <ElementTool Name="StartPoint" ToolboxIcon="Resources\StartTool.bmp" Caption="Start Point" Tooltip="Create a Start Point" HelpKeyword="CreateStartStateF1Keyword">
